@@ -67,5 +67,23 @@ a:hover {
  }
  #mobile-nav {
   display: flex;
+  flex-direction: column;
  }
 }
+
+#mobile-nav {
+ background-color: orange;
+}
+
+.hamburger-menu {
+ background: pink;
+}
+
+.logo-menu {
+ display: flex;
+ width: 100%;
+ justify-content: space-around;
+ align-items: center;
+}
+
+
