@@ -68,6 +68,7 @@ a:hover {
  #mobile-nav {
   display: flex;
   flex-direction: column;
+  position: relative;
  }
 }
 
@@ -86,4 +87,23 @@ a:hover {
  align-items: center;
 }
 
+.hamburger-menu {
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ transform: translateX(100%);
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 100%;
+}
 
+.hamburger-menu  li {
+ list-style-type: none;
+ font-size: 25px;
+ margin: 20px 0px;
+}
+
+.hamburger-menu div {
+ margin-top: 50px;
+}
