@@ -45,7 +45,7 @@ a {
  transition: all 0.3s;
 }
 
-a:hover {
+.nav-link:hover {
  text-decoration: underline;
  text-underline-offset: 5px;
  color: white;
@@ -77,8 +77,7 @@ a:hover {
 }
 
 .hamburger-menu {
- background:rgba(3, 38, 68, .9) ;
- color: ;
+ background:rgba(3, 44, 80, 0.9);
  z-index: 1000;
 }
 
@@ -101,6 +100,7 @@ a:hover {
 }
 
 #links {
+ margin-top: 150px;
  width: 100%;
  text-align: center;
 }
@@ -108,10 +108,13 @@ a:hover {
 .hamburger-menu  li {
  list-style-type: none;
  font-size: 25px;
- margin: 20px 0px;
+ margin: 30px 0px;
  width: 100%;
 }
 
-.hamburger-menu div {
- margin-top: 50px;
+.mobile-link:hover {
+ color: orange;
+ background-color: white;
+ letter-spacing: 2px;
+ transition: .2s;
 }
