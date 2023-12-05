@@ -26,6 +26,8 @@ a, button {
 
 /* N A V */
 #nav {
+ background-color: rgba(2, 36, 66, 0.9);
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
  display: flex;
  justify-content:space-around;
  align-items: center;
@@ -73,7 +75,8 @@ a {
 }
 
 #mobile-nav {
- background-color: orange;
+ background-color: rgba(2, 36, 66, 0.9);
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .hamburger-menu {
