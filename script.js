@@ -12,7 +12,7 @@ let  mobLink = document.querySelectorAll('.mobile-link')
 console.log(mobLink);
 mobLink.forEach((link) => link.addEventListener('click' , () => {
  console.log('link');
-  hMenu.style.transform = 'translateX(100%)' 
+  hMenu.style.transform = 'translateX(-100%)' 
   hMenu.style.transition = ".9s" 
 }))
 
