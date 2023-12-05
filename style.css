@@ -113,9 +113,25 @@ a {
 }
 
 .mobile-link:hover {
- color: orange;
  background-color: white;
  letter-spacing: 2px;
  transition: .2s;
+}
+
+/*  F O O T E R  */
+footer {
+ background-color: rgba(2, 36, 66, 0.9);
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ color: aliceblue;
+ width: 100%;
+ position: absolute;
+ bottom: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+footer p {
+ margin: 10px 30px;
 }
 
