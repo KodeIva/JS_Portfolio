@@ -62,6 +62,7 @@ a {
  font-size: 30px;
  cursor: default;
  font-family: 'Syncopate', sans-serif;
+ text-shadow: 3px 3px 5px lightgray;
 }
 
 #mobile-nav {
@@ -90,9 +91,15 @@ i {
  font-size: 30px;
 }
 
+i:hover {
+ transform: scale(1.2);
+ cursor: pointer;
+}
+
 .hamburger-menu {
  background:rgba(3, 44, 80, 0.9);
  z-index: 1000;
+
 }
 
 .logo-menu {
