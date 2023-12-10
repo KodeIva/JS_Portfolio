@@ -26,6 +26,15 @@ a, button {
  transition: all 400ms ease-in-out;
 }
 
+section {
+ padding-top: 4vh;
+ height: 96vh;
+ margin: 0 10rem;
+ box-sizing: border-box;
+ min-height: fit-content;
+}
+
+
 /* N A V */
 #nav {
  background-color: rgba(2, 36, 66, 0.9);
@@ -138,6 +147,24 @@ i:hover {
  letter-spacing: 2px;
  transition: .2s;
 }
+
+/* SECTION */
+#about {
+ display: flex;
+ justify-content: center;
+ gap: 5rem;
+ height: 80vh;
+}
+
+.picture-container {
+ display: flex;
+ height: 400px;
+ width: 400px;
+ margin: auto 0;
+}
+
+
+
 
 /*  F O O T E R  */
 footer {
