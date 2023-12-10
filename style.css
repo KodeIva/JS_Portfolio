@@ -163,7 +163,24 @@ i:hover {
  margin: auto 0;
 }
 
+.text {
+ align-self: center;
+ text-align: center;
+}
 
+.text p {
+ font-weight: 600;
+}
+
+.text-p1, .text-p2 {
+ text-align: center;
+ font-size: 1.75rem;
+ margin-bottom: 1rem;
+}
+
+.title {
+ font-size: 2rem;
+}
 
 
 /*  F O O T E R  */
