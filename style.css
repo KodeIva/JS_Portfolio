@@ -182,6 +182,17 @@ i:hover {
  font-size: 2rem;
 }
 
+.socials {
+ display: flex;
+ justify-content: center;
+ margin-top: 1rem;
+ gap: 1rem;
+}
+
+.socials a:hover {
+ color: orangered;
+}
+
 
 /*  F O O T E R  */
 footer {
