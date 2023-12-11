@@ -211,6 +211,20 @@ i:hover {
  cursor: pointer;
 }
 
+.btn-color-1:hover {
+ background-color: #ee5a24;
+ color: white;
+}
+
+.btn-color-2 {
+  background-color: #ee5a24;
+  color: white;
+} 
+
+.btn-color-2:hover {
+  background-color: white;
+  color: rgb(2, 43, 80);
+}
 
 
 /*  F O O T E R  */
