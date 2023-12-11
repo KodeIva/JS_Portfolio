@@ -193,6 +193,26 @@ i:hover {
  color: orangered;
 }
 
+
+.btn-container {
+ display: flex;
+ justify-content: center;
+ gap: 1rem;
+}
+
+.btn {
+ font-weight: 600;
+ transition: all .5s ease;
+ padding: .7rem;
+ width: 8rem;
+ border-radius: 2rem;
+ border: #ee5a24 0.2rem solid;
+ color: rgb(2, 43, 80);
+ cursor: pointer;
+}
+
+
+
 /*  F O O T E R  */
 footer {
  background-color: rgba(2, 36, 66, 0.9);
