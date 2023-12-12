@@ -16,6 +16,7 @@ body {
  font-family: 'Nunito', sans-serif;
  background-color: rgb(2, 43, 80);
  color: aliceblue;
+ position: relative;
 }
 
 p, a , button {
@@ -161,6 +162,7 @@ i:hover {
  height: 400px;
  width: 400px;
  margin: auto 0;
+ background-color: aqua;
 }
 
 .text {
@@ -226,16 +228,34 @@ i:hover {
   color: rgb(2, 43, 80);
 }
 
+@media screen and (max-width: 800px) {
+ #about {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .picture-container {
+  width: 250px;
+  height: 350px;
+ }
+ .picture-container img{
+  width: inherit;
+  
+ }
+}
 
 /*  F O O T E R  */
 footer {
  background-color: rgba(2, 36, 66, 0.9);
- box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; 
+ display: flex;
  color: aliceblue;
  width: 100%;
  position: absolute;
  bottom: 0;
- display: flex;
+
  flex-direction: column;
  justify-content: center;
  align-items: center;
@@ -251,3 +271,4 @@ footer p {
  background-color: #ea2027;
  background-image: linear-gradient(315deg, #ea2027 0%, #ee5a24 74%);
 }
+
