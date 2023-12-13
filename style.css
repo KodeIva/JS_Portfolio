@@ -161,7 +161,6 @@ i:hover {
  height: 400px;
  width: 400px;
  margin: auto 0;
- background-color: aqua;
 }
 
 .text {
@@ -236,7 +235,7 @@ i:hover {
   align-items: center;
  }
  .picture-container {
-  width: 250px;
+  width: 260px;
   height: 350px;
  }
  .picture-container img{
