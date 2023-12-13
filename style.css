@@ -149,7 +149,7 @@ i:hover {
 }
 
 /* SECTION */
-#about {
+#profile {
  display: flex;
  justify-content: center;
  gap: 5rem;
@@ -228,7 +228,7 @@ i:hover {
 }
 
 @media screen and (max-width: 800px) {
- #about {
+ #profile {
   height: auto;
   display: flex;
   flex-direction: column;
