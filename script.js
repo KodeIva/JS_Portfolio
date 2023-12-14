@@ -16,6 +16,25 @@ mobLink.forEach((link) => link.addEventListener('click' , () => {
   hMenu.style.transition = ".9s" 
 }))
 
+
+
+// skills hover effect
+let skills = document.querySelectorAll('.skills-items h3')
+console.log(skills);
+
+skills.forEach((skill) => skill.addEventListener('mouseover',() => {
+  skill.style.marginLeft = '30px'
+  skill.style.transition = '.7s'
+  skill.style.color = 'orangered'
+}))
+    
+skills.forEach((skill) => skill.addEventListener('mouseleave',() => {
+  skill.style.marginLeft = ''
+  skill.style.color = ''
+}))
+
+
+
 // footer current year
 let year = document.querySelector('.year')
 year.innerHTML = new Date().getFullYear()
