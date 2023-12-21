@@ -281,7 +281,6 @@ i:hover {
   /*background-color: yellowgreen;*/
   width: auto;
   padding: 20px 20px;
- 
   border-left: 2px solid aliceblue;
 }
 
@@ -300,6 +299,35 @@ i:hover {
  .picture-container img{
   width: inherit;
   
+ }
+}
+
+@media screen and (max-width: 1100px) {
+  #about {
+  flex-direction: column;
+  width: 90%;
+  margin: 30px auto;
+  justify-content: center;
+  align-items: center;
+ }
+
+  .skills, .text-container {
+  flex-direction: column;
+  width: 90%;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+ }
+ .paragraphs, .skills-items {
+  border: none;
+ }
+ .skills-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ }
+ .skills-items h3 {
+  margin: 10px;
  }
 }
 
