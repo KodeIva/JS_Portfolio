@@ -284,6 +284,50 @@ i:hover {
   border-left: 2px solid aliceblue;
 }
 
+/* P R O J E C T S */
+#projects {
+  border-bottom: 1px dotted rgba(149, 157, 165, 0.2);
+  height: auto;
+  padding: 50px 0px;
+ /* background-color: rgb(16, 114, 81);*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+  color: aliceblue;
+  line-height: 30px;
+}
+.projects-div {
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(2, 33, 61, 0.7);
+}
+
+.projects-div img {
+  border-radius: 10px;
+}
+
+.projects-div h1 {
+  margin: 8px 0;
+}
+
+.project-btn {
+  display: flex;
+  justify-content: space-between]6;
+}
+
+.project-btn button {
+  border-radius: 15px;
+  color: rgb(2, 43, 80);
+  padding: 5px;
+}
+
 @media screen and (max-width: 800px) {
  #profile {
   height: auto;
