@@ -319,13 +319,26 @@ i:hover {
 
 .project-btn {
   display: flex;
-  justify-content: space-between]6;
+  justify-content: space-between;
 }
 
 .project-btn button {
   border-radius: 15px;
+  background-color: unset;
+  color: aliceblue;
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  
+}
+
+.project-btn button:hover {
+  border-radius: 15px;
+  background-color: aliceblue;
   color: rgb(2, 43, 80);
-  padding: 5px;
+  padding: 5px 10px;
+  outline: none;
+  border: none;
 }
 
 @media screen and (max-width: 800px) {
