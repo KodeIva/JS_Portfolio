@@ -8,7 +8,7 @@ btn.addEventListener('click', () => {
 })
 
 
-let  mobLink = document.querySelectorAll('.mobile-link')
+let  mobLink = document.querySelectorAll('.mobile-link a')
 console.log(mobLink);
 mobLink.forEach((link) => link.addEventListener('click' , () => {
  console.log('link');
@@ -16,6 +16,11 @@ mobLink.forEach((link) => link.addEventListener('click' , () => {
   hMenu.style.transition = ".9s" 
 }))
 
+let mobMenu = document.querySelector('.hamburger-menu')
+mobMenu.addEventListener('click',() => {
+  hMenu.style.transform = 'translateX(-100%)' 
+  hMenu.style.transition = ".9s" 
+})
 
 
 // skills hover effect
