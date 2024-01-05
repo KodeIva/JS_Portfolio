@@ -410,16 +410,20 @@ i:hover {
   right: 40px;
   width: 40px;
   height: 40px;
-  background: #ee5a24;
+  background: linear-gradient(315deg, #ea2027 0%, #ee5a24 74%);
   border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   z-index: 100000000000;
-  visibility: visible;
-  opacity: 1;
+  visibility: hidden;
+  opacity: 0;
   transition: 0.5s;
+}
+
+.scrollTop:hover {
+  transform: scale(1.1);
 }
 
 .scrollTop i {
@@ -427,6 +431,10 @@ i:hover {
  position: absolute;
 }
 
+.scrollTop.active {
+  visibility: visible;
+  opacity: 1;
+}
 
 
 /*  F O O T E R  */
