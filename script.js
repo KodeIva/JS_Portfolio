@@ -33,7 +33,17 @@ skills.forEach((skill) => skill.addEventListener('mouseleave',() => {
   skill.style.color = ''
 }))
 
+//
+let projects = document.querySelectorAll('.projects-div')
 
+projects.forEach((project) => project.addEventListener('mouseover',() => {
+  project.style.cursor = "pointer" ;
+  project.style.boxShadow = "0px 0px 25px #ee5a24" ;
+}))
+
+projects.forEach((project) => project.addEventListener('mouseleave',() => {
+  project.style.boxShadow = "none" ;
+}))
 
 // footer current year
 let year = document.querySelector('.year')
