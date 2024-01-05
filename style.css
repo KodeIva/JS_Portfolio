@@ -289,7 +289,6 @@ i:hover {
   border-bottom: 1px dotted rgba(149, 157, 165, 0.2);
   height: auto;
   padding: 50px 0px;
-  background-color: rgb(16, 114, 81);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -299,16 +298,22 @@ i:hover {
   color: aliceblue;
   line-height: 30px;
 }
+.all-projects-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 .projects-div {
   width: 400px;
   height: 300px;
+  margin: 10px;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(2, 33, 61, 0.7);
+  background-color: rgba(4, 33, 58, 0.7);
+  box-shadow: 4px 4px 9px #ee5a24;
 }
-
 .projects-div img {
   border-radius: 10px;
 }
