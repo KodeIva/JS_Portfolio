@@ -38,7 +38,9 @@ skills.forEach((skill) => skill.addEventListener('mouseleave',() => {
   skill.style.color = ''
 }))
 
-//
+
+
+// projects hover effect
 let projects = document.querySelectorAll('.projects-div')
 
 projects.forEach((project) => project.addEventListener('mouseover',() => {
@@ -49,6 +51,24 @@ projects.forEach((project) => project.addEventListener('mouseover',() => {
 projects.forEach((project) => project.addEventListener('mouseleave',() => {
   project.style.boxShadow = "none" ;
 }))
+
+
+
+// scroll to top button
+const scrollBtn = document.querySelector('.scrollTop')
+
+window.addEventListener('scroll', function() {
+  scrollBtn.classList.toggle('active', window.scrollY > 300) 
+})
+
+ function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behaviour: 'smooth'
+    })
+  }
+scrollBtn.addEventListener('click', scrollToTop)
+
 
 // footer current year
 let year = document.querySelector('.year')
