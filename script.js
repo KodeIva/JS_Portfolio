@@ -45,11 +45,13 @@ let projects = document.querySelectorAll('.projects-div')
 
 projects.forEach((project) => project.addEventListener('mouseover',() => {
   project.style.cursor = "pointer" ;
+  project.style.border = 'none'
   project.style.boxShadow = "0px 0px 25px #ee5a24" ;
 }))
 
 projects.forEach((project) => project.addEventListener('mouseleave',() => {
   project.style.boxShadow = "none" ;
+  project.style.border = "4px solid rgb(2, 48, 88)"
 }))
 
 
