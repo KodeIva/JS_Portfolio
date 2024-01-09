@@ -307,6 +307,7 @@ i:hover {
   line-height: 30px;
 }
 .all-projects-div {
+  background-color: orange;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -356,6 +357,10 @@ i:hover {
   border: none;
 }
 
+.project img {
+  width: 350px;
+}
+
 @media screen and (max-width: 800px) {
  #profile {
   height: auto;
@@ -370,8 +375,14 @@ i:hover {
  }
  .picture-container img{
   width: inherit;
-  
  }
+ .projects-div {
+  width: 340px;
+  height: 280px;
+ }
+ .project img {
+  width: 320px;
+}
 }
 
 @media screen and (max-width: 1100px) {
