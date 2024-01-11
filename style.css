@@ -442,7 +442,16 @@ textarea {
  }
  .project img {
   width: 320px;
-}
+ }
+ label, input {
+    width: 80%;
+  }
+  textarea {
+    width: 80%;
+  }
+  .submit {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 1100px) {
