@@ -189,8 +189,9 @@ i:hover {
  margin-bottom: 1rem;
 }
 
-.title {
+#title {
  font-size: 2rem;
+ text-shadow: 3px 3px #c95406;
 }
 
 .socials {
